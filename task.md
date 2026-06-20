@@ -58,7 +58,7 @@ Enthaltene Themen:
   - Validierungslogik fuer Flaechen und Bauvorhaben einfuehren, zum Beispiel pruefen, ob eine Flaeche bereits bebaut ist, bevor sie reserviert wird.
   - Methode `BebaubarkeitPruefen()` implementieren, die auf Basis von B-Plan-Daten die Bebaubarkeit einer Flaeche zurueckgibt.
 
-Die Studierenden sollen daraus ein klares Kevin-Issue erstellen, dieses mit `kevin` labeln und Kevin nur mit dem priorisierten, konkretisierten Arbeitsauftrag starten.
+Die Studierenden sollen daraus zwei eigene, klare Issues erstellen. Beide studentischen Issues muessen das Juergen-Issue im Titel oder Body mit `#<Issue-Number>` referenzieren, damit die Herkunft nachvollziehbar bleibt. Hoestens eines dieser beiden Issues darf das Label `kevin` erhalten; mindestens eines muss ohne Kevin von den Studierenden selbst per Branch und Pull Request geloest werden.
 
 ## 4. Weitere Juergen-Issues zur Triage
 
@@ -88,4 +88,4 @@ Themen fuer die weiteren Issues:
 - `blocked`: blockiert durch fehlende Informationen oder Abhaengigkeiten.
 - `wontfix`, `duplicate`, `invalid`, `help wanted`: normale Triage-Labels.
 
-Kevin darf nur Issues bearbeiten, die von Studierenden erstellt wurden und das Label `kevin` tragen. Maria- und Juergen-Issues muessen von den Studierenden erst in konkrete Kevin-Issues uebersetzt werden.
+Kevin darf nur Issues bearbeiten, die von Studierenden erstellt wurden und das Label `kevin` tragen. Maria- und Juergen-Issues muessen von den Studierenden erst in konkrete Kevin-Issues uebersetzt werden. Bei Issues, die aus einem Juergen-Issue entstehen, muss das urspruengliche Juergen-Issue mit `#<Issue-Number>` referenziert werden.

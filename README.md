@@ -1,8 +1,8 @@
 <!--
 
-author:   Volker Göhler
+author:   Volker Göhler, Simon Hörtzsch
 email:    volker.goehler@informatik.tu-freiberg.de
-version:  0.0.1
+version:  0.0.2
 language: de
 narrator: Deutsch Female
 
@@ -25,6 +25,68 @@ tags: [Sommersemester2026, Softwareentwicklung, Übung06]
 
 Softwareentwicklung SoSe2026
 ============================
+
+## GitHub Issues – Kurzanleitung
+
+Kategorisierung
+====================
+
+Issues können in GitHub durch Labels und Typen kategorisiert werden, um sie thematisch und nach Art zu ordnen.
+
+![Die rechte Seite des Bildschirms zur Erstellung eines Issues mit allen Optionen für Kategorisierung und Priorisierung.](img/Github_GUI_Overview.png "Die rechte Seite des Bildschirms zur Erstellung eines Issues mit allen Optionen für Kategorisierung und Priorisierung.")<!-- style="height: 10cm;" -->
+
+Labels
+--------------------
+
+Labels ordnen Issues thematisch zu und erleichtern das Filtern und Sortieren.
+
+- **Agentenbezogen:**
+  - `assignment` – Issues, die von Maria als Aufgaben zugewiesen werden.
+  - `kevin` – Issues, die für den KI-Agenten Kevin bestimmt sind.
+  - `student-task` – Übungsaufgaben für Studierende.
+
+- **Arbeitsbereich:**
+  - `csharp` – Issues, die die Implementierung in C# betreffen.
+  - `documentation` – Issues, die Dokumentation oder die `README.md` betreffen.
+  - `enhancement` – Issues für neue Funktionen oder Erweiterungen.
+
+- **Status:**
+  - `blocked` – Issues, die aufgrund fehlender Abhängigkeiten oder Informationen blockiert sind.
+  - `bug` – Issues, die einen Fehler oder unerwartetes Verhalten melden.
+  - `question` – Issues, die Klärungsbedarf haben.
+
+- **Triage:**
+  - `help wanted` – Issues, bei denen Unterstützung benötigt wird.
+  - `duplicate` – Issues, die bereits als Duplikat erkannt wurden.
+  - `invalid` – Issues, die ungültig oder nicht relevant sind.
+  - `wontfix` – Issues, die bewusst nicht behoben werden.
+
+![Labeloptionen in GitHub.](img/Github_GUI_Labels.png "Labeloptionen in GitHub.")<!-- style="height: 8cm;" -->
+
+Typen
+--------------------
+
+Typen definieren die Art des Issues und passen die verfügbaren Felder an. Sie helfen, Issues nach ihrem Zweck zu klassifizieren.
+
+![Ausgewählte Typ-Optionen](img/Github_GUI_Type.png "Ausgewählte Typ-Optionen")<!-- style="height: 8cm;" -->
+
+- **Bug** – Meldet einen Fehler im Code oder System.
+- **Feature** – Bezeichnet eine neue Funktion oder Verbesserung.
+- **Task** – Beschreibt eine allgemeine Aufgabe, die erledigt werden muss.
+
+Priorisierung
+--------------------
+
+Jeder Typ ermöglicht die Festlegung einer Priorität, um die Wichtigkeit und Dringlichkeit des Issues anzuzeigen.
+
+![Angezeigte Prioritätsoptionen](img/Github_GUI_Fields_Prio.png "Angezeigte Prioritätsoptionen")<!-- style="height: 8cm;" -->
+
+Prioritätsstufen:
+
+- **urgent** – Dringend, muss sofort bearbeitet werden.
+- **high** – Hoch, sollte bald bearbeitet werden.
+- **medium** – Mittel, normale Priorität.
+- **low** – Niedrig, kann später bearbeitet werden.
 
 ## Aufgabe
 
@@ -98,9 +160,12 @@ Nach Kevins erster Umsetzung erstellt Jürgen weitere Issues. Diese sind bewusst
 Ihre Aufgabe ist dann:
 
 - Anforderungen aus Jürgens Issues verstehen und trennen.
+- Aus dem ersten unscharfen Jürgen-Issue zwei eigene, konkrete Issues erstellen.
+- In beiden eigenen Issues das ursprüngliche Jürgen-Issue mit `#<Issue-Number>` referenzieren.
 - Issues mit passenden Labels kategorisieren.
 - Priorität, Aufwand und Abhängigkeiten einschätzen.
-- Bei Bedarf ein neues, konkretes Kevin-Issue erstellen und mit `kevin` labeln.
+- Höchstens eines der beiden Issues mit `kevin` labeln; mindestens eines bearbeiten Sie selbst per Branch und Pull Request.
+- Bei späteren Jürgen-Issues nur dann ein konkretes Kevin-Issue erstellen und mit `kevin` labeln, wenn Sie die Aufgabe bewusst an Kevin delegieren wollen.
 - Nicht alles muss sofort umgesetzt werden; begründen Sie, was zurückgestellt oder nicht bearbeitet wird.
 
 ## UML-Dokumentation
